@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "esc-library")(type "KiCad")(uri "/Users/kelvin-zhao/Development/git/_Leonids/drone-esc-board/esc-library.pretty")(options "")(descr ""))
+)
