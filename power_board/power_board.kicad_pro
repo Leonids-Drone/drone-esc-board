@@ -618,8 +618,28 @@
       "Root"
     ],
     [
+      "e75be158-cf9b-4215-a6e9-9f80ecc0638d",
+      "mcu"
+    ],
+    [
+      "43aff6ba-bfeb-402e-8d33-59af370906e1",
+      "curret_sense"
+    ],
+    [
       "38fb28ef-c920-476e-98e2-c5764b02e9b3",
-      "half_bridge0"
+      "half_bridge_0"
+    ],
+    [
+      "0fbb45d6-7cc5-4771-8820-af30fd089845",
+      "half_bridge_1"
+    ],
+    [
+      "74dd21af-da9a-49ef-aa54-e651b1250580",
+      "half_bridge_2"
+    ],
+    [
+      "927e148f-75f8-4b4b-a665-398b3d169758",
+      "power_converter"
     ]
   ],
   "text_variables": {}
