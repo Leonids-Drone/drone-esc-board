@@ -587,6 +587,149 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "esc-library:HOVB4026-5W-0.5MR-1%"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HOVB4026-5W-0.5MR-1%"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "esc-library:RES-SMD_4P-L10.8-W6.7"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Low-Resistors-Current-Sense-Resistors-Surface-Mount_Milliohm-HOVB4026-5W-0-5mR-1_C481533.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C481533"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HOVB4026-5W-0.5MR-1%_0_1"
+				(rectangle
+					(start -3.3 0.76)
+					(end 3.3 -0.76)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 1.778)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -2.54 90)
+					(length 1.778)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -2.54 90)
+					(length 1.778)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 1.778)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -826,18 +969,6 @@
 		(color 0 0 0 0)
 		(uuid "3f5dce02-92a4-40a7-aa65-2dce595a388c")
 	)
-	(junction
-		(at 50.8 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f3eb1fa-a8a9-453e-884a-f6b25bce2eed")
-	)
-	(junction
-		(at 50.8 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bd0796c-657d-48bd-a7e2-cb97107a085a")
-	)
 	(wire
 		(pts
 			(xy 102.87 72.39) (xy 102.87 69.85)
@@ -847,6 +978,26 @@
 			(type default)
 		)
 		(uuid "0858c77a-4dc2-4099-9dbe-7efe6e6b3667")
+	)
+	(wire
+		(pts
+			(xy 43.18 57.15) (xy 43.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff89465-8904-4931-82f8-33b1901dccc1")
+	)
+	(wire
+		(pts
+			(xy 43.18 72.39) (xy 43.18 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f072eb4-d9d3-4d79-adce-cfe0e8233a2c")
 	)
 	(wire
 		(pts
@@ -880,7 +1031,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 67.31) (xy 68.58 67.31)
+			(xy 45.72 67.31) (xy 68.58 67.31)
 		)
 		(stroke
 			(width 0)
@@ -900,16 +1051,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 62.23) (xy 50.8 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b440ee36-476f-4156-a109-f13f09700fd4")
-	)
-	(wire
-		(pts
 			(xy 102.87 64.77) (xy 111.76 64.77)
 		)
 		(stroke
@@ -920,23 +1061,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 62.23) (xy 68.58 62.23)
+			(xy 45.72 62.23) (xy 68.58 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f0fe671a-1a7d-41fb-ba81-73ca32bcaabc")
-	)
-	(wire
-		(pts
-			(xy 45.72 67.31) (xy 50.8 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f853bfec-7ad8-4087-b38b-ce3817d5c441")
 	)
 	(wire
 		(pts
@@ -948,16 +1079,27 @@
 		)
 		(uuid "ff8f31ab-a0d8-4175-8968-e25cdecabdf3")
 	)
-	(hierarchical_label "current-"
+	(hierarchical_label "current+"
 		(shape input)
-		(at 45.72 67.31 180)
+		(at 43.18 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "709f2059-867f-4820-8273-6309cf632e0e")
+		(uuid "3f9ef57b-ed22-467a-93c6-87273d666853")
+	)
+	(hierarchical_label "current-"
+		(shape input)
+		(at 43.18 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ac3d95d-0914-429e-9312-5cabde17cfb0")
 	)
 	(hierarchical_label "I_OUT"
 		(shape input)
@@ -969,87 +1111,6 @@
 			(justify left)
 		)
 		(uuid "721d28f1-2cd7-4fa2-b4ed-4689b6525e41")
-	)
-	(hierarchical_label "current+"
-		(shape input)
-		(at 45.72 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8b851afd-a0cb-4ca8-89f8-96bfcb0eb2e8")
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 50.8 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "111bfcbb-65b0-45a1-afca-d790079f8574")
-		(property "Reference" "R8"
-			(at 53.34 63.4999 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.001"
-			(at 53.34 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 50.8 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 50.8 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7bab6ee-b2a9-4ba9-8671-84ced99296da")
-		)
-		(pin "2"
-			(uuid "86a56cbb-1183-4d1d-b68c-35376918a2a6")
-		)
-		(instances
-			(project ""
-				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/43aff6ba-bfeb-402e-8d33-59af370906e1"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -1129,7 +1190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a3ec267-952d-49d1-a489-f1b68f130c3f")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 87.63 58.3498 0)
 			(effects
 				(font
@@ -1190,7 +1251,7 @@
 		(instances
 			(project ""
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/43aff6ba-bfeb-402e-8d33-59af370906e1"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1206,7 +1267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d55ff3c-5154-4053-a4aa-48f184eceb44")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 86.36 46.9899 0)
 			(effects
 				(font
@@ -1260,7 +1321,7 @@
 		(instances
 			(project ""
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/43aff6ba-bfeb-402e-8d33-59af370906e1"
-					(reference "C11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -1276,7 +1337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34b2af5f-f990-4901-ab51-e6e148f5076e")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR026"
 			(at 73.66 78.74 0)
 			(effects
 				(font
@@ -1326,7 +1387,73 @@
 		(instances
 			(project ""
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/43aff6ba-bfeb-402e-8d33-59af370906e1"
-					(reference "#PWR018")
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 73.66 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "412f8714-98a4-4e72-86e1-2d46790e112c")
+		(property "Reference" "#PWR025"
+			(at 73.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3A0"
+			(at 73.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 73.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "796aaac6-19ca-43f9-b7e1-ed743fc59f6c")
+		)
+		(instances
+			(project "power_board"
+				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/43aff6ba-bfeb-402e-8d33-59af370906e1"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -1342,7 +1469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d50ec5f-c6b7-4757-8183-0d8e45293e68")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR027"
 			(at 82.55 58.42 0)
 			(effects
 				(font
@@ -1392,24 +1519,42 @@
 		(instances
 			(project "power_board"
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/43aff6ba-bfeb-402e-8d33-59af370906e1"
-					(reference "#PWR019")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 73.66 41.91 0)
+		(lib_id "esc-library:HOVB4026-5W-0.5MR-1%")
+		(at 43.18 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "da786d40-3a37-4145-8f69-453c506f2ae6")
-		(property "Reference" "#PWR017"
-			(at 73.66 45.72 0)
+		(uuid "b3da2a68-1de7-4799-8638-b7c6ae33f0a7")
+		(property "Reference" "R8"
+			(at 40.64 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HOVB4026-5W-0.5MR-1%"
+			(at 40.64 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "esc-library:RES-SMD_4P-L10.8-W6.7"
+			(at 53.34 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,16 +1562,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3A"
-			(at 73.66 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 41.91 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Low-Resistors-Current-Sense-Resistors-Surface-Mount_Milliohm-HOVB4026-5W-0-5mR-1_C481533.html"
+			(at 55.88 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,8 +1571,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 73.66 41.91 0)
+		(property "Description" ""
+			(at 43.18 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,22 +1580,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 73.66 41.91 0)
+		(property "LCSC Part" "C481533"
+			(at 58.42 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "3"
+			(uuid "f9c9a885-1892-4a16-9a11-b25801bf75de")
+		)
+		(pin "4"
+			(uuid "f8b6aacf-ffe7-43b6-a860-fa9db21aa079")
+		)
+		(pin "2"
+			(uuid "556e7151-7402-4da6-bece-a120d8a908c2")
 		)
 		(pin "1"
-			(uuid "2c1f95b2-d865-46f2-8f56-890330dd72c2")
+			(uuid "012e5d37-d368-4f6d-82b5-c8e00de2f124")
 		)
 		(instances
-			(project "power_board"
+			(project ""
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/43aff6ba-bfeb-402e-8d33-59af370906e1"
-					(reference "#PWR017")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -1474,7 +1620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e35457ed-968a-483e-9ab1-5b43807cf0b0")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR028"
 			(at 102.87 78.74 0)
 			(effects
 				(font
@@ -1524,7 +1670,7 @@
 		(instances
 			(project "power_board"
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/43aff6ba-bfeb-402e-8d33-59af370906e1"
-					(reference "#PWR020")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1540,7 +1686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea1915d4-2074-4145-a562-a5d58b7d23b6")
-		(property "Reference" "C12"
+		(property "Reference" "C8"
 			(at 105.41 66.0335 0)
 			(effects
 				(font
@@ -1594,7 +1740,7 @@
 		(instances
 			(project ""
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/43aff6ba-bfeb-402e-8d33-59af370906e1"
-					(reference "C12")
+					(reference "C8")
 					(unit 1)
 				)
 			)

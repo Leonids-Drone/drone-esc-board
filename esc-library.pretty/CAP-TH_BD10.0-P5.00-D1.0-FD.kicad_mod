@@ -1,0 +1,156 @@
+(footprint "CAP-TH_BD10.0-P5.00-D1.0-FD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "8d2ea71b-37cf-4f02-8a46-c0898b564bab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP-TH_BD10.0-P5.00-D1.0-FD"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "d8d536df-dd1c-4acd-b80c-62a048f2a034")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f29eae93-f787-4b06-bc66-81bbfc2bb104")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c58ea4b6-bfdc-43c5-8bf0-24ba07fe4a21")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.57 0)
+		(end -3.56 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e479323e-5cb4-4db5-973c-74d3c57507ab")
+	)
+	(fp_line
+		(start -4.06 -0.76)
+		(end -4.06 0.76)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99d86449-c4c1-4365-ae5f-00504dc6e5fb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "81c4bf7d-1903-4cb8-863b-68aea3208801")
+	)
+	(fp_circle
+		(center -5 5)
+		(end -4.97 5)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "420dacd7-cba0-48ba-82a2-3a1fa8ef6d30")
+	)
+	(fp_circle
+		(center -2.54 0)
+		(end -2.39 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1e21c4f4-a581-4fbb-b0ba-6a1d0f721f6c")
+	)
+	(fp_circle
+		(center 2.54 0)
+		(end 2.69 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1ec9aac7-9568-4969-88e1-75f87122281e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f577643c-ab34-4abd-953f-b42cefc274ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 1.6 1.6)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ed31a915-2863-4016-ac5e-bbf908116cbf")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.6 1.6)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "46005fa1-a74d-4ba9-982e-c41800fb0730")
+	)
+	(embedded_fonts no)
+	(model "/Users/kelvin-zhao/Development/git/_Leonids/drone-esc-board/esc-library.3dshapes/CAP-TH_D10.0-H16.0-P5.00.wrl"
+		(offset
+			(xyz 0 -0 12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
