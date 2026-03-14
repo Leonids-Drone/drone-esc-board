@@ -11,4 +11,4 @@ id="$1"
 # allow "52148914" -> "C52148914"
 [[ "$id" == C* ]] || id="C$id"
 
-easyeda2kicad --full --lcsc_id="$id" --output "$OUT"
+easyeda2kicad  --footprint --symbol --3d --lcsc_id="$id" --output "$OUT" --overwrite

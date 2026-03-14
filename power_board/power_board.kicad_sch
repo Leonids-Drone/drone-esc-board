@@ -961,7 +961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22698929-efff-4f0a-a8fe-d6c45331a921")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR03"
 			(at 167.64 48.26 0)
 			(effects
 				(font
@@ -1011,7 +1011,7 @@
 		(instances
 			(project ""
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c"
-					(reference "#PWR048")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1026,7 +1026,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5966a961-aca9-4257-b6dc-7e099897b883")
-		(property "Reference" "C33"
+		(property "Reference" "C2"
 			(at 152.908 35.814 90)
 			(effects
 				(font
@@ -1035,7 +1035,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10u"
 			(at 155.448 35.814 90)
 			(effects
 				(font
@@ -1080,7 +1080,7 @@
 		(instances
 			(project "power_board"
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c"
-					(reference "C33")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -1095,7 +1095,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c8fe049-848a-475e-a03a-813473347080")
-		(property "Reference" "C32"
+		(property "Reference" "C1"
 			(at 146.558 35.814 90)
 			(effects
 				(font
@@ -1104,7 +1104,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10u"
 			(at 149.098 35.814 90)
 			(effects
 				(font
@@ -1149,7 +1149,7 @@
 		(instances
 			(project ""
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c"
-					(reference "C32")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -1164,7 +1164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4c753d1-ed1b-4845-8553-9e20f758232b")
-		(property "Reference" "C34"
+		(property "Reference" "C3"
 			(at 159.258 35.814 90)
 			(effects
 				(font
@@ -1173,7 +1173,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10u"
 			(at 161.798 35.814 90)
 			(effects
 				(font
@@ -1218,7 +1218,7 @@
 		(instances
 			(project "power_board"
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c"
-					(reference "C34")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -1233,7 +1233,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c98b027a-2fd9-438e-9078-7b19c17ee0b5")
-		(property "Reference" "C35"
+		(property "Reference" "C4"
 			(at 165.608 35.814 90)
 			(effects
 				(font
@@ -1242,7 +1242,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10u"
 			(at 168.148 35.814 90)
 			(effects
 				(font
@@ -1287,7 +1287,7 @@
 		(instances
 			(project "power_board"
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c"
-					(reference "C35")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -1303,7 +1303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d58be032-3d10-4bc1-bc57-2d5d351833aa")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR02"
 			(at 146.05 162.56 0)
 			(effects
 				(font
@@ -1353,7 +1353,7 @@
 		(instances
 			(project "power_board"
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c"
-					(reference "#PWR049")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1369,7 +1369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7e3740b-44a5-40cb-9e2f-9d342b368115")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR01"
 			(at 142.24 38.1 0)
 			(effects
 				(font
@@ -1419,7 +1419,7 @@
 		(instances
 			(project ""
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c"
-					(reference "#PWR047")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
