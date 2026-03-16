@@ -3513,16 +3513,6 @@
 		)
 		(uuid "3259d0e2-72a2-4dbd-bca5-f3552b41bca1")
 	)
-	(label "MOTOR_PHASE_FB_A"
-		(at 133.35 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e0bada7-6dbf-447e-8fc9-8fd47124a1b2")
-	)
 	(label "BEMF_B"
 		(at -27.94 48.26 180)
 		(effects
@@ -3532,16 +3522,6 @@
 			(justify right bottom)
 		)
 		(uuid "4b62ddac-9d4c-4109-8611-e5ef18463af6")
-	)
-	(label "MOTOR_PHASE_FB_C"
-		(at 133.35 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "60130910-40cd-4251-9935-e4550d65c343")
 	)
 	(label "BEMF_A"
 		(at -27.94 41.91 180)
@@ -3602,16 +3582,6 @@
 			(justify left bottom)
 		)
 		(uuid "d32aab12-69b8-4ed1-b626-c5748d5bf987")
-	)
-	(label "MOTOR_PHASE_FB_B"
-		(at 133.35 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec06649c-06cc-4bfa-8a25-ada1097ca20c")
 	)
 	(global_label "TELEMETRY"
 		(shape input)
@@ -3723,6 +3693,17 @@
 		)
 		(uuid "1efd0f95-045b-472c-9ce2-02e888423440")
 	)
+	(hierarchical_label "PHASE_FB_A "
+		(shape input)
+		(at 133.35 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7aefdc9b-a862-4932-914c-714c5bcf309b")
+	)
 	(hierarchical_label "B_LOW"
 		(shape input)
 		(at 107.95 68.58 180)
@@ -3733,6 +3714,17 @@
 			(justify right)
 		)
 		(uuid "7b6c359d-df34-42c3-b760-cf96c6c0e1eb")
+	)
+	(hierarchical_label "PHASE_FB_C"
+		(shape input)
+		(at 133.35 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "841e3bad-a818-48b8-a003-b6a29b1555d5")
 	)
 	(hierarchical_label "B_HIGH"
 		(shape input)
@@ -3777,6 +3769,17 @@
 			(justify left)
 		)
 		(uuid "d60d2379-1192-46f1-8a02-cc60393f0b85")
+	)
+	(hierarchical_label "PHASE_FB_B"
+		(shape input)
+		(at 133.35 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5a2a591-7433-4c92-b743-0273fc3f24c2")
 	)
 	(hierarchical_label "PHASE_FB_A "
 		(shape input)
@@ -5436,6 +5439,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_ThermalVias"
