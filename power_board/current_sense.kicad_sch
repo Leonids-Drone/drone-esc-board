@@ -183,6 +183,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -969,6 +1076,24 @@
 		(color 0 0 0 0)
 		(uuid "3f5dce02-92a4-40a7-aa65-2dce595a388c")
 	)
+	(junction
+		(at 55.88 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56da0173-8b66-4d32-ab73-0161137dac41")
+	)
+	(junction
+		(at 50.8 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57833540-52a3-4dbf-b985-1ba30661d8a6")
+	)
+	(junction
+		(at 107.95 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6a66435-2230-4af2-a0d0-d237fd1699dd")
+	)
 	(wire
 		(pts
 			(xy 102.87 72.39) (xy 102.87 69.85)
@@ -1001,6 +1126,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 67.31) (xy 68.58 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1d285e-c91a-43af-9588-caddbaa2bd34")
+	)
+	(wire
+		(pts
 			(xy 95.25 64.77) (xy 83.82 64.77)
 		)
 		(stroke
@@ -1008,6 +1143,16 @@
 			(type default)
 		)
 		(uuid "52b60d22-3342-439a-9b64-cdb76ffb6aef")
+	)
+	(wire
+		(pts
+			(xy 50.8 62.23) (xy 68.58 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8549c264-5d28-47df-ac1b-d387ae182634")
 	)
 	(wire
 		(pts
@@ -1031,7 +1176,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 67.31) (xy 68.58 67.31)
+			(xy 45.72 67.31) (xy 55.88 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1051,7 +1196,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 64.77) (xy 111.76 64.77)
+			(xy 107.95 64.77) (xy 111.76 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d518bd11-d24a-40ac-97ef-6816d82c283f")
+	)
+	(wire
+		(pts
+			(xy 102.87 64.77) (xy 107.95 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1061,7 +1216,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 62.23) (xy 68.58 62.23)
+			(xy 45.72 62.23) (xy 50.8 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1113,6 +1268,73 @@
 		(uuid "721d28f1-2cd7-4fa2-b4ed-4689b6525e41")
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 55.88 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dd88c27-fa72-4cd2-81f6-4096944f0575")
+		(property "Reference" "TP7"
+			(at 58.42 62.7379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 58.42 65.2779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "esc-library:SMD_RH-5015"
+			(at 60.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 55.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb10e2d7-3bf8-4fdd-91e4-5f5216dc4252")
+		)
+		(instances
+			(project "power_board"
+				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/43aff6ba-bfeb-402e-8d33-59af370906e1"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 97.79 64.77 90)
 		(unit 1)
@@ -1122,7 +1344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19b1d83b-bc9c-455f-ae1f-b46f7ebbcf42")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 97.79 59.69 90)
 			(effects
 				(font
@@ -1174,7 +1396,7 @@
 		(instances
 			(project ""
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/43aff6ba-bfeb-402e-8d33-59af370906e1"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -1190,7 +1412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a3ec267-952d-49d1-a489-f1b68f130c3f")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 87.63 58.3498 0)
 			(effects
 				(font
@@ -1251,7 +1473,7 @@
 		(instances
 			(project ""
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/43aff6ba-bfeb-402e-8d33-59af370906e1"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -1267,7 +1489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d55ff3c-5154-4053-a4aa-48f184eceb44")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 86.36 46.9899 0)
 			(effects
 				(font
@@ -1321,7 +1543,74 @@
 		(instances
 			(project ""
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/43aff6ba-bfeb-402e-8d33-59af370906e1"
-					(reference "C7")
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3485d7be-a9f8-41a8-9afa-aade328751cf")
+		(property "Reference" "TP8"
+			(at 110.49 60.1979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 110.49 62.7379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "esc-library:SMD_RH-5015"
+			(at 113.03 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1768d1a-ab5b-4b51-a302-3244cecfd43b")
+		)
+		(instances
+			(project "power_board"
+				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/43aff6ba-bfeb-402e-8d33-59af370906e1"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -1460,6 +1749,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52416b9b-1265-455b-adc0-f6321c38ef94")
+		(property "Reference" "TP6"
+			(at 53.34 57.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 53.34 60.1979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "esc-library:SMD_RH-5015"
+			(at 55.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0aab6dd2-7906-425b-98c7-9e6998fc8da2")
+		)
+		(instances
+			(project "power_board"
+				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/43aff6ba-bfeb-402e-8d33-59af370906e1"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 82.55 52.07 0)
 		(unit 1)
@@ -1535,7 +1891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3da2a68-1de7-4799-8638-b7c6ae33f0a7")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 40.64 63.4999 90)
 			(effects
 				(font
@@ -1604,7 +1960,7 @@
 		(instances
 			(project ""
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/43aff6ba-bfeb-402e-8d33-59af370906e1"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1686,7 +2042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea1915d4-2074-4145-a562-a5d58b7d23b6")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 105.41 66.0335 0)
 			(effects
 				(font
@@ -1740,7 +2096,7 @@
 		(instances
 			(project ""
 				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/43aff6ba-bfeb-402e-8d33-59af370906e1"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
