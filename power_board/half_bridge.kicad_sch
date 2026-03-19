@@ -2347,6 +2347,17 @@
 		)
 		(uuid "70ae9103-69f3-43b0-a0ca-8c30b31ed038")
 	)
+	(hierarchical_label "VSS"
+		(shape input)
+		(at 118.11 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a9ac6ab-8290-482e-96c3-4593e96b5273")
+	)
 	(hierarchical_label "VDD"
 		(shape input)
 		(at 137.16 41.91 0)
@@ -3011,7 +3022,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "MOS_G_H"
 			(at 91.44 43.6879 0)
 			(effects
 				(font
@@ -3645,7 +3656,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a43cbce-162d-40b6-b54f-40ca51490fd6")
 		(property "Reference" "TP12"
-			(at 96.54 132.5879 0)
+			(at 96.52 132.5879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,8 +3664,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 96.54 135.1279 0)
+		(property "Value" "DRIVE_L"
+			(at 96.52 135.1279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,6 +3722,81 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 118.11 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fc16c9a-a26c-4688-a30a-522396be55ab")
+		(property "Reference" "TP37"
+			(at 120.65 94.4879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VSS"
+			(at 120.65 97.0279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "esc-library:SMD_RH-5015"
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e7148c3-ffdd-4643-a0b0-d03f3ac61920")
+		)
+		(instances
+			(project "power_board"
+				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/0fbb45d6-7cc5-4771-8820-af30fd089845"
+					(reference "TP38")
+					(unit 1)
+				)
+				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/38fb28ef-c920-476e-98e2-c5764b02e9b3"
+					(reference "TP37")
+					(unit 1)
+				)
+				(path "/c786dd1f-c97f-4c1e-a27a-ac5828b3c50c/74dd21af-da9a-49ef-aa54-e651b1250580"
+					(reference "TP39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 87.63 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3728,7 +3814,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "MOS_G_L"
 			(at 90.17 77.9779 0)
 			(effects
 				(font
@@ -3803,7 +3889,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "DRIVE_H"
 			(at 95.25 132.5879 0)
 			(effects
 				(font
@@ -4479,7 +4565,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "PHASE_FB"
 			(at 182.88 136.3979 0)
 			(effects
 				(font
